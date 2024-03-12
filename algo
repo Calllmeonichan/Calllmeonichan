@@ -1,0 +1,12 @@
+debut NbrBonbon
+
+argent <-- A; A=10
+Prix b <-- P; P=1
+bonbon <-- B; B=0
+  Tant que A-P > P
+    B<--B+1
+  Fin tant que
+  Retourner B
+
+Fin NbrBonbon
+  
